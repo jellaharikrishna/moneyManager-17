@@ -1,0 +1,33 @@
+.transaction-data-card {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  width: 100%;
+}
+
+.userinputs {
+  align-self: flex-start;
+  padding-left: 30px;
+  font-family: Roboto;
+  width: 100%;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.delete-img {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .history-card {
+    width: 60%;
+    margin-left: 20px;
+  }
+  .delete-img {
+    width: 20%;
+  }
+}
